@@ -1,0 +1,1 @@
+<h1 class="c-title"><?php echo $children; ?></h1>

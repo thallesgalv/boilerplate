@@ -1,0 +1,9 @@
+@import "_mixins";
+
+body {
+  h1.c-title {
+    color: var(--colorPurple500);
+    font-family: var(--fontSecondary);
+    @include fontTM4;
+  }
+}

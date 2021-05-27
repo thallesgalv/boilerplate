@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Pattaya;
+  src: url("../fonts/Pattaya-Regular.ttf");
+}
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+:root {
+  --fontPrimary: "Arial";
+  --fontSecondary: "Pattaya";
+}
+
+// ==========================================================================
+// Sizes & Spacing
+// ==========================================================================
+
+:root {
+  --menuHeight: 5rem; //80px;
+  @media (max-width: 768px) {
+    --menuHeight: 4rem; //64px
+  }
+  --footerHeight: 4rem; //64px
+  @media (max-width: 768px) {
+    --footerHeight: auto;
+  }
+
+  --spacing: 1rem; //16px
+}
+
+// ==========================================================================
+// Colors (Tailwind Design System)
+// ==========================================================================
+
+:root {
+  --colorPrimary: deeppink;
+  --colorSecondary: deepskyblue;
+  --colorTertiary: white;
+  --colorText: #262626;
+
+  --colorGrey100: #f3f4f6;
+  --colorGrey200: #e5e7eb;
+  --colorGrey300: #d1d5db;
+  --colorGrey400: #9ca3af;
+  --colorGrey500: #6b7280;
+  --colorGrey600: #4b5563;
+  --colorGrey700: #374151;
+  --colorGrey800: #1f2937;
+  --colorGrey900: #111827;
+  --colorRed100: #fee2e2;
+  --colorRed200: #fecaca;
+  --colorRed300: #fca5a5;
+  --colorRed400: #f87171;
+  --colorRed500: #ef4444;
+  --colorRed600: #dc2626;
+  --colorRed700: #b91c1c;
+  --colorRed800: #991b1b;
+  --colorRed900: #7f1d1d;
+  --colorYellow100: #fef3c7;
+  --colorYellow200: #fde68a;
+  --colorYellow300: #fcd34d;
+  --colorYellow400: #fbbf24;
+  --colorYellow500: #f59e0b;
+  --colorYellow600: #d97706;
+  --colorYellow700: #b45309;
+  --colorYellow800: #92400e;
+  --colorYellow900: #78350f;
+  --colorGreen100: #d1fae5;
+  --colorGreen200: #a7f3d0;
+  --colorGreen300: #6ee7b7;
+  --colorGreen400: #34d399;
+  --colorGreen500: #10b981;
+  --colorGreen600: #059669;
+  --colorGreen700: #047857;
+  --colorGreen800: #065f46;
+  --colorGreen900: #064e3b;
+  --colorBlue100: #dbeafe;
+  --colorBlue200: #bfdbfe;
+  --colorBlue300: #a5b4fc;
+  --colorBlue400: #818cf8;
+  --colorBlue500: #6366f1;
+  --colorBlue600: #4f46e5;
+  --colorBlue700: #4338ca;
+  --colorBlue800: #3730a3;
+  --colorBlue900: #312e81;
+  --colorPurple100: #ede9fe;
+  --colorPurple200: #ddd6fe;
+  --colorPurple300: #c4b5fd;
+  --colorPurple400: #a78bfa;
+  --colorPurple500: #8b5cf6;
+  --colorPurple600: #7c3aed;
+  --colorPurple700: #6d28d9;
+  --colorPurple800: #5b21b6;
+  --colorPurple900: #4c1d95;
+  --colorPink100: #fce7f3;
+  --colorPink200: #fbcfe8;
+  --colorPink300: #f9a8d4;
+  --colorPink400: #f472b6;
+  --colorPink500: #ec4899;
+  --colorPink600: #db2777;
+  --colorPink700: #be185d;
+  --colorPink800: #9d174d;
+  --colorPink900: #831843;
+}
