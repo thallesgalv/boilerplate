@@ -1,7 +1,11 @@
 body {
   h1.c-title {
-    color: var(--colorPurple500);
+    color: var(--colorYellow500);
     font-family: var(--fontSecondary);
     @include fontTM4;
+
+    @include breakpoint(lg) {
+      color: var(--colorBlue500);
+    }
   }
 }
