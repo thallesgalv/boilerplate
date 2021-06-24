@@ -1,11 +1,11 @@
 body {
   h1.c-title {
-    color: var(--colorYellow500);
+    color: var(--colorBlue500);
     font-family: var(--fontSecondary);
-    @include fontTM4;
+    @include fontTM6;
 
     @include breakpoint(lg) {
-      color: var(--colorBlue500);
+      color: var(--colorYellow500);
     }
   }
 }

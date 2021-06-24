@@ -55,13 +55,14 @@ body {
   background-color: var(--colorText);
   color: var(--colorTertiary);
   font-family: var(--fontPrimary);
-  @include fontTM4;
+  @include fontTM1;
 }
 
 // ==========================================================================
 // Components
 // ==========================================================================
 @import "c-title";
+@import "c-button";
 
 // ==========================================================================
 // Pages

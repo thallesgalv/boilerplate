@@ -11,5 +11,5 @@
   <title><?php echo $title; ?></title>
 </head>
 
-<body>
+<body class="p-home">
   <header class="c-header"></header>
