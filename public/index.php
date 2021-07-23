@@ -16,6 +16,9 @@
   ?>
 </main>
 <?php include 'components/c-footer.php'; ?>
+<?php /* includeWithVariables('components/c-footer.php', 
+    array('pageJS' => array('pageSpecific.js'))); */
+?>
 
 <?php
     function includeWithVariables($filePath, $variables = array() , $print = true) {
