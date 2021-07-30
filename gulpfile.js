@@ -32,7 +32,7 @@ gulp.task("concatjs", function () {
 
 gulp.task("js", function () {
   return gulp
-    .src("src/js/main.js")
+    .src("src/js/*.js")
     .pipe(babel({ presets: ["env"] }))
     .pipe(uglify())
     .pipe(gulp.dest("./build/js"));
@@ -72,7 +72,7 @@ gulp.task(
   )
 );
 
-// yarn add gulp gulp-htmlmin gulp-imagemin imagemin-pngquant imagemin-mozjpeg gulp-concat gulp-babel @babel/core @babel/preset-env gulp-uglify -D
+// yarn add gulp gulp-htmlmin gulp-imagemin imagemin-pngquant imagemin-mozjpeg gulp-concat gulp-babel babel-core babel-preset-env @babel/core @babel/preset-env gulp-uglify -D
 
 // gulp watch = concat js in dev
 // gulp build = build folder to prod
