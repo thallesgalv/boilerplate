@@ -33,7 +33,7 @@ gulp.task("concatjs", function () {
 gulp.task("js", function () {
   return gulp
     .src("src/js/*.js")
-    .pipe(babel({ presets: ["env"] }))
+    .pipe(babel({ presets: ["@babel/preset-env"] }))
     .pipe(uglify())
     .pipe(gulp.dest("./build/js"));
 });
